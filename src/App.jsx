@@ -56,7 +56,7 @@ export default function DRISHTI() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer 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",
+          "Authorization": `Bearer ${import.meta.env.VITE_OPENROUTER_API_KEY}`,
           "HTTP-Referer": "https://drishti-markets.netlify.app",
           "X-Title": "DRISHTI Market Intelligence"
         },
