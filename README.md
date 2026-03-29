@@ -274,11 +274,7 @@ npm run build
 npm run preview
 ```
 
-### Deploy to Netlify
 
-1. Build the project: `npm run build`
-2. Drag-and-drop the `dist/` folder to [app.netlify.com](https://app.netlify.com)
-3. Your dashboard is live! 🚀
 
 ---
 
