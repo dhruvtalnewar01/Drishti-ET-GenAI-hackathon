@@ -56,8 +56,8 @@ export default function DRISHTI() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": `Bearer ${import.meta.env.VITE_OPENROUTER_API_KEY}`,
-          "HTTP-Referer": "https://drishti-markets.netlify.app",
+          "Authorization": "Bearer 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",
+          "HTTP-Referer": "https://etdrishti.netlify.app",
           "X-Title": "DRISHTI Market Intelligence"
         },
         body: JSON.stringify({ model: "meta-llama/llama-3.3-70b-instruct:free", messages: [{ role: "system", content: SYSTEM_PROMPT }, ...history, { role: "user", content: msg }] })
